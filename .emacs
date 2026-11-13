@@ -28,6 +28,9 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
 (add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 
+(unless package-archive-contents (package-refresh-contents))
+(package-install-selected-packages t)
+
 (package-install 'async)
 (package-install 'helm)
 (package-install 'helm-projectile)
