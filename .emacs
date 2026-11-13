@@ -17,7 +17,7 @@
 (put 'narrow-to-region 'disabled nil)
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'dracula t)
+(load-theme 'zenburn t)
 
 
 (require 'misc)
