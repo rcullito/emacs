@@ -10,3 +10,8 @@ To install packages via melpa
 
 *package-selected-packages will be a source of truth for what actually got installed versus what was specified in the init file and checked in. 
 
+
+
+11/13
+1. copy .emacs to ~/.emacs
+
